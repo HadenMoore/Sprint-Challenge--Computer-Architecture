@@ -32,7 +32,7 @@ class CPU:
         self.sp = self.reg[7]
         self.flag = None
 
-        def ram_read(self, MAR):
+    def ram_read(self, MAR):
             return self.ram[MAR]
 
     def ram_write(self, MAR, MDR):
