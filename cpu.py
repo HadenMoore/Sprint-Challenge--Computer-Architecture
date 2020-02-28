@@ -116,7 +116,7 @@ class CPU:
                 # self.pc += 3
             
             elif command == PRN:
-                # operand_a = self.ram[self.pc + 1]
+                op_A = self.ram[self.pc + 1]
                 print(self.reg[op_A])
                 # self.pc += 2
 
